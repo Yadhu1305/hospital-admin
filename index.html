@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospital Admin Panel</title>
+  <style>
+    body { font-family: Arial; padding: 20px; max-width: 500px; }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+    }
+    button {
+      background: green;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Hospital Admin Panel</h2>
+
+<input id="name" placeholder="Hospital Name">
+<input id="address" placeholder="Address">
+<input id="lat" placeholder="Latitude">
+<input id="lon" placeholder="Longitude">
+<textarea id="services" placeholder="Services (comma separated)"></textarea>
+<textarea id="doctors" placeholder="Doctors (Name:Specialization)"></textarea>
+
+<button onclick="save()">Save Hospital JSON</button>
+
+<script src="app.js"></script>
+</body>
+</html>

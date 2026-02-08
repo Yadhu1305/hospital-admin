@@ -1,0 +1,12 @@
+{
+  "name": "Demo City Hospital",
+  "address": "Mavoor Road, Kozhikode, Kerala",
+  "lat": 11.2588,
+  "lon": 75.7804,
+  "isOpen": true,
+  "services": ["Emergency", "ICU", "OPD"],
+  "doctors": [
+    { "name": "Dr. Anil Kumar", "specialization": "Cardiology" },
+    { "name": "Dr. Meera Nair", "specialization": "Neurology" }
+  ]
+}
